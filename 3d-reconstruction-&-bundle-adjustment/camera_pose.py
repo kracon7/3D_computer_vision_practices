@@ -190,7 +190,7 @@ def EstimateCameraPose(track1, track2):
             X = -1 * np.ones((F,3))
             X[ft_index[cheirality_index]] = X_temp[cheirality_index]
 
-    visualize = 1
+    visualize = 0
     if visualize:
         R0, C0 = np.eye(3), np.zeros(3)
 
